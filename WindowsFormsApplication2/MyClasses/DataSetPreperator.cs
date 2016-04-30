@@ -20,7 +20,7 @@ namespace AzizaMapReducer.MyClasses
         /// <returns></returns>
         public static bool IsValidJSON(String json)
         {
-            int x = 6;
+            int x = 70;
             try
             {
                 JToken token = JObject.Parse(json);
